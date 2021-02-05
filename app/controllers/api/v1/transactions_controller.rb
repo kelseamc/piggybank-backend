@@ -13,7 +13,15 @@ class Api::V1::TransactionsController < ApplicationController
 
     def destroy
         transaction = Transaction.find(params[:id])
+        transaction.destroy!
+        render json: transaction
+    end 
+
+    def show 
+        transaction = Transaction.find(params[:id])
+        render json: transaction
     end
+ 
 
 
     private
