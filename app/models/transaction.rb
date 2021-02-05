@@ -1,4 +1,4 @@
 class Transaction < ApplicationRecord
     belongs_to :user
-    belongs_to :Account
+    belongs_to :account
 end

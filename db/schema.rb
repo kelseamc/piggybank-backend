@@ -38,7 +38,7 @@ ActiveRecord::Schema.define(version: 2021_02_03_181504) do
     t.integer "account_id"
     t.integer "user_id"
     t.float "amount"
-    t.string "type"
+    t.string "category"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
