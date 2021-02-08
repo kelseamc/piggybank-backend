@@ -23,6 +23,11 @@ class Api::V1::AccountsController < ApplicationController
         render json: account
     end
 
+    def create
+        account = Account.create(account_params)
+        render json: account
+    end
+
     private
 
     def account_params

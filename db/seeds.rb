@@ -9,6 +9,7 @@
 User.destroy_all
 Account.destroy_all
 PiggyBank.destroy_all
+Transaction.destroy_all
 
 me = User.create(name: "Kelsea", username:"kelsea_mc", password: "1234")
 my_account = Account.create(name: "Bank of America", account_number: "1234567", total: 5000, user_id: me.id)
