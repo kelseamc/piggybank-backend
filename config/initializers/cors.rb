@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins '*'
+    origins '*' #change this when you deploy ! Origin is what front end application can make request (what domain )
 
     resource '*',
       headers: :any,
