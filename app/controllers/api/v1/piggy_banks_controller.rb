@@ -7,7 +7,8 @@ class Api::V1::PiggyBanksController < ApplicationController
 
     def create 
         new_piggy = PiggyBank.create(piggy_params)
-        render json: new_piggy
+        render json: new_piggy 
+  
     end
 
     def destroy
