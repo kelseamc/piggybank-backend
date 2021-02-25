@@ -7,9 +7,9 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins '' #change this when you deploy ! Origin is what front end application can make request (what domain )
+    origins 'http://localhost:3000/' #change this when you deploy ! Origin is what front end application can make request (what domain )
 
-    resource 'http://localhost:3000',
+    resource '*',
       headers: :any,
       methods: [:get, :post, :put, :patch, :delete, :options, :head]
       credentials: true
