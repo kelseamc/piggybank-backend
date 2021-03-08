@@ -20,7 +20,7 @@ And a deployed LIVE version of it here: https://www.pigbnkapp.com/
 
 ## CORE ROUTES - Documentation ⭐
 
-### Base URL 👶
+### Base URL 
 https://pigbankk.herokuapp.com/api/v1
 
 ### GET /login
