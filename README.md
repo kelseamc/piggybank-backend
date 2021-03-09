@@ -10,7 +10,7 @@ Server deployed to _Heroku_ .
 I work with 4 main Models in our database: __User__, __Piggy_Bank__,  __Account__, and __Transaction__.
 Models were connected the creating ActiveRecord relations. Active Model Serializers were also implemented. 
 
-We have implemented validation where possible on each of our models, in order to control that the data stored in our database is clean and proper ✨
+I have also implemented validation where possible on each of our models, in order to control that the data stored in our database is clean and proper ✨
 
 ## Frontend - See it in Action 💥
 
